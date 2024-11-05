@@ -1,5 +1,5 @@
 import apiImg from "../assets/api.webp";
-import companyProfile from "../assets/company-profile.webp";
+import companyProfile from "../assets/company_profile.webp";
 import inventoryManagement from "../assets/inventory_management.webp";
 import pointOfSales from "../assets/point-of-sales.webp";
 
