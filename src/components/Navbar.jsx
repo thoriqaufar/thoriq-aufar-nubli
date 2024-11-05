@@ -64,7 +64,7 @@ const Navbar = () => {
                 <div className="py-2 backdrop-blur-md lg:hidden">
                     <div className="flex items-center justify-between">
                         <div>
-                            <a href="#">
+                            <a href="/">
                                 <span className="pl-2 uppercase">
                                     Thoriq Aufar Nubli
                                 </span>
