@@ -8,16 +8,21 @@ import { RiJavaLine } from "@remixicon/react";
 import {
     SiApachekafka,
     SiBootstrap,
+    SiC,
+    SiCplusplus,
     SiCss3,
     SiDocker,
     SiGo,
     SiHtml5,
     SiJavascript,
+    SiKotlin,
     SiLaravel,
+    SiMicrosoft,
     SiMongodb,
     SiMysql,
     SiPhp,
     SiPostgresql,
+    SiPython,
     SiReact,
     SiSpringboot,
     SiTailwindcss,
@@ -44,7 +49,7 @@ export const PROJECTS = [
         title: "Point of Sales Web Application",
         description:
             "A web-based point of sales application with user authentication, product management, and real-time sales tracking.",
-        techStack: ["PHP", "Laravel", "Filament", "MySQL"],
+        techStack: ["PHP", "Laravel", "Filament", "MySQL", "Docker"],
         imgSrc: pointOfSales,
         link: "https://github.com/thoriqaufar/point-of-sales",
     },
@@ -62,7 +67,7 @@ export const PROJECTS = [
         title: "Jago Bank API",
         description:
             "A secure RESTful API for Jago Bank, providing user authentication, transaction management, and real-time account balance retrieval to streamline banking operations.",
-        techStack: ["Golang", "Gin", "MySQL", "JWT"],
+        techStack: ["Golang", "Gin", "MySQL", "JWT", "Docker"],
         imgSrc: apiImg,
         link: "https://github.com/thoriqaufar/jago-bank-api",
     },
@@ -115,8 +120,32 @@ export const SKILLS = [
         icon: <RiJavaLine className="text-orange-600" />,
     },
     {
+        name: "Python",
+        icon: <SiPython style={{ color: "#3776AB" }} />,
+    },
+    {
+        name: "C",
+        icon: <SiC style={{ color: "#A8B9CC" }} />,
+    },
+    {
+        name: "C++",
+        icon: <SiCplusplus style={{ color: "#00599C" }} />,
+    },
+    {
+        name: "Kotlin",
+        icon: <SiKotlin style={{ color: "#7F52FF" }} />,
+    },
+    {
+        name: "Visual Basic",
+        icon: <SiMicrosoft className="text-blue-600" />,
+    },
+    {
         name: "Laravel",
         icon: <SiLaravel style={{ color: "#FF2D20" }} />,
+    },
+    {
+        name: "Gin/Echo/Fiber",
+        icon: <SiGo style={{ color: "#00ADD8" }} />,
     },
     {
         name: "Spring Boot",
